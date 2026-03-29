@@ -60,3 +60,6 @@ elif distance_mi > 6:
         print(True)
     else:
         print(False)
+
+Primeiro conteúdo desafiador, levei um tempo até entender como funcionava essa comunicação com o código, depois de feito me senti muito orgulhoso do progresso.
+
