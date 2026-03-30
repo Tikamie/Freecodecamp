@@ -1,0 +1,35 @@
+
+Neste caso, a função my_func tem seu próprio escopo que não pode ser acessado de fora da função. Chamar my_func irá exibir 10, mas imprimir my_var fora da função resultará em um NameError:
+
+
+def my_func():
+    my_var = 10 # Locally scoped to my_func
+    print(my_var)
+
+my_func() # 10
+
+print(my_var) # NameError: name 'my_var' is not defined
+
+
+parte importante:
+Escopo envolvente
+
+inicializar res como uma string vazia no escopo envolvente, que está dentro de outer_func. Então, dentro de inner_func, torne res uma variável não local com a palavra-chave nonlocal:
+
+def outer_func():
+    msg = 'Hello there!'
+    res = ""  # Declare res in the enclosing scope
+
+    def inner_func():
+        nonlocal res  # Allow modification of an enclosing variable
+        res = 'How are you?'
+        print(msg)  # Accessing msg from outer_func()
+
+    inner_func()
+    print(res)  # Now res is accessible and modified
+
+outer_func()
+
+# Output:
+# Hello there!
+# How are you?
