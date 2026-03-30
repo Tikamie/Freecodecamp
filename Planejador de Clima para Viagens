@@ -36,27 +36,27 @@ has_bike = False
 has_car = False
 has_ride_share_app = False
 
-if not distance_mi:
+if not distance_mi: # if not serve para checar se o produto é falsy, ou seja ira retornar algo se a variavel estiver como falsy
     print(False)
 
 elif distance_mi <= 1:
-    if not is_raining:
+    if not is_raining: # aqui usei if not para checar se não estava chovendo, caso não estivesse ele daria sinal verde para prosseguir com o codigo
         print(True)
     else:
         print(False)
 
-elif 1 < distance_mi <= 6:
+elif 1 < distance_mi <= 6: # no começo estava utilizando muito o operador  " and " e isso acarretava em diversos erros, com o tempo me acostumei a usar apenas operadores matematicos
     if is_raining:
         print(False)
-    elif not has_bike:
+    elif not has_bike: 
         print(False)
     else:
         print(True)
 
 elif distance_mi > 6:
-    if has_car:
+    if has_car:  # outro detalhe a ser fixado é que posso usar " if " dentro de um elif
         print(True)
-    elif has_ride_share_app:
+    elif has_ride_share_app: # nota para atenção, é que o proximo if tem que ser sempre um elif, no começo estava usando muitos " if " dando problema no codigo
         print(True)
     else:
         print(False)
