@@ -28,8 +28,8 @@ def outer_func():
     inner_func()
     print(res)  # Now res is accessible and modified
 
-outer_func()
 
-# Output:
-# Hello there!
-# How are you?
+Estava começando a me confundir com a programção, logo fui entender a base de todo o programador revendo os conteudos da faculdade e pesquisando mais sobre logica de programação, começando por tabela verdade e algoritmo.
+https://zhjwpku.com/assets/pdf/books/C++.Primer.5th.Edition_2013.pdf
+
+https://www.youtube.com/watch?v=epf-WQdVis0
