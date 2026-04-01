@@ -33,3 +33,15 @@ Estava começando a me confundir com a programção, logo fui entender a base de
 https://zhjwpku.com/assets/pdf/books/C++.Primer.5th.Edition_2013.pdf
 
 https://www.youtube.com/watch?v=epf-WQdVis0
+
+Os 5 Q's detalhados para estruturar qualquer algoritmo:
+Quais dados de entrada são fornecidos?
+Identifique as variáveis iniciais necessárias (ex: salario, nome, idade).
+O que devo fazer com esses dados?
+Defina as operações matemáticas ou lógicas necessárias (ex: salario * 0.10, verificar se idade > 18).
+Quais são as restrições (ou regras) do problema?
+Identifique limites, como "o salário não pode ser negativo" ou "o número deve ser par".
+Qual é o resultado esperado (saída)?
+Defina o que o algoritmo deve retornar ou exibir no final (ex: "aprovado", o valor total, etc.).
+Qual a sequência de passos (Algoritmo)?
+Liste o passo a passo lógico, ordenado e claro para resolver o problema, que será traduzido para código.
