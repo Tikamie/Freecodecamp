@@ -45,3 +45,9 @@ Qual é o resultado esperado (saída)?
 Defina o que o algoritmo deve retornar ou exibir no final (ex: "aprovado", o valor total, etc.).
 Qual a sequência de passos (Algoritmo)?
 Liste o passo a passo lógico, ordenado e claro para resolver o problema, que será traduzido para código.
+
+4 conceitos obrigatorios para ser capaz de resolver problemas:
+1 - Variáveis
+2 - Condicionais
+3 - Laços de Repetição
+4. Coleções
