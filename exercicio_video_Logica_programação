@@ -1,0 +1,9 @@
+# Problema 1 - Valor por hora
+# Escreva um programa que retorna o valor hora de  um funcionário
+# Com base no seu salário mensal e horas trabalhadas por Mês.
+
+salario = 4000
+horas_trabalhadas_dia = 8
+dias_de_trabalho_mensal = 20
+
+print(f'O valor por hora do nosso querido trabalhador é de {horas_trabalhadas_dia * dias_de_trabalho_mensal % salario }')
