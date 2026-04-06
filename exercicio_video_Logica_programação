@@ -19,3 +19,17 @@ horas_trabalhadas_dia = 8
 dias_de_trabalho_mensal = 20
 
 print(f'O valor por hora do nosso querido trabalhador é de {horas_trabalhadas_dia * dias_de_trabalho_mensal % salario }')
+
+# Exercicio 2
+#comparar numeros
+
+numero_1 = int(input('Digite um número: '))
+numero_2 = int(input('Digite outro número: '))
+
+if numero_1 > numero_2:
+    print(f'O primeiro valor digitado é maior ({numero_1})')
+elif numero_1 == numero_2:
+    print(f'Os valores digitados são iguais ({numero_1})')  
+else:
+    print(f'O Segundo valor digitado é maior ({numero_2})')
+
