@@ -1,7 +1,19 @@
 # Problema 1 - Valor por hora
 # Escreva um programa que retorna o valor hora de  um funcionário
 # Com base no seu salário mensal e horas trabalhadas por Mês.
-
+'''
+# Os 5 Q's detalhados para estruturar qualquer algoritmo:
+Quais dados de entrada são fornecidos?
+Identifique as variáveis iniciais necessárias (ex: salario, nome, idade).
+O que devo fazer com esses dados?
+Defina as operações matemáticas ou lógicas necessárias (ex: salario * 0.10, verificar se idade > 18).
+Quais são as restrições (ou regras) do problema?
+Identifique limites, como "o salário não pode ser negativo" ou "o número deve ser par".
+Qual é o resultado esperado (saída)?
+Defina o que o algoritmo deve retornar ou exibir no final (ex: "aprovado", o valor total, etc.).
+Qual a sequência de passos (Algoritmo)?
+Liste o passo a passo lógico, ordenado e claro para resolver o problema, que será traduzido para código.
+'''
 salario = 4000
 horas_trabalhadas_dia = 8
 dias_de_trabalho_mensal = 20
