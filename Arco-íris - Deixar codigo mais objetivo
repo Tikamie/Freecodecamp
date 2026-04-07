@@ -6,7 +6,7 @@ def cor():
     azul = 'azul'
     anil = 'anil'
     violeta = 'violeta'
-    return azul, verde, amarelo
+    return vermelho, amarelo, verde, azul, anil, violeta
 
 selecionar_cor = input('Consultar cor do arco Arco-íris: ').lower()
 
