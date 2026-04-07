@@ -14,3 +14,23 @@ if selecionar_cor in cor(): # Usei in para verificar se a cor digitada está den
     print(f'{selecionar_cor} esta presente no Arco-íris')
 else:
     print(f'{selecionar_cor} não pertence ao Arco-íris')
+
+'''
+Fiz outro com a função capitalize para o resultado sair com letra maiúscula
+
+'''
+
+def cor():
+    vermelho = 'vermelho'.capitalize()
+    amarelo = 'amarelo'.capitalize()
+    verde = 'verde'.capitalize()
+    azul = 'azul'.capitalize()
+    anil = 'anil'.capitalize()
+    violeta = 'violeta'.capitalize()
+    return vermelho, amarelo, verde, azul, anil, violeta
+
+selecionar_cor = input('Consultar cor do arco Arco-íris: ').capitalize()
+if selecionar_cor in cor():
+    print(f'{selecionar_cor} esta presente no Arco-íris')
+else:
+    print(f'{selecionar_cor} não pertence ao Arco-íris')
