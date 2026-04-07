@@ -1,0 +1,16 @@
+#Criei esse programinha para servir de exemplo de codigo de como não lotar o codigo de funções if, elif, etc...
+def cor():
+    vermelho = 'vermelho'
+    amarelo = 'amarelo'
+    verde = 'verde'
+    azul = 'azul'
+    anil = 'anil'
+    violeta = 'violeta'
+    return azul, verde, amarelo
+
+selecionar_cor = input('Consultar cor do arco Arco-íris: ').lower()
+
+if selecionar_cor in cor():
+    print(f'{selecionar_cor} esta presente no Arco-íris')
+else:
+    print(f'{selecionar_cor} não pertence ao Arco-íris')
