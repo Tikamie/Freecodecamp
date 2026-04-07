@@ -8,9 +8,9 @@ def cor():
     violeta = 'violeta'
     return vermelho, amarelo, verde, azul, anil, violeta
 
-selecionar_cor = input('Consultar cor do arco Arco-íris: ').lower()
+selecionar_cor = input('Consultar cor do arco Arco-íris: ').lower() # Usei .lower() para evitar erro com maiúsculas/minúsculas
 
-if selecionar_cor in cor():
+if selecionar_cor in cor(): # Usei in para verificar se a cor digitada está dentro da lista de cores
     print(f'{selecionar_cor} esta presente no Arco-íris')
 else:
     print(f'{selecionar_cor} não pertence ao Arco-íris')
