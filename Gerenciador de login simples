@@ -1,0 +1,26 @@
+#Gerenciador de login simples
+'''
+Crie um gerenciador de login simples, com o máximo de 3 tentativas.
+(Teremos apenas um único usuário e senha permitidos)
+
+usuario - Lucas
+senha - 12345
+
+Após 3 tentaivas, se o usuário estiver errado exibir:
+"Aguarde 30 min antes de tentar novamente!"
+caso contrario exibir a mensagem "Login Feito com sucesso!"
+'''
+
+usuario = ''
+senha = ''
+tentativas = 0
+
+while (usuario != 'Lucas' or senha != '12345') and tentativas < 3:
+    usuario = input('Digite o nome do usuário: ')
+    senha = input('Digite a senha: ')
+    tentativas += 1
+    
+if usuario == 'Lucas' and senha == '12345':
+    print('Login Feito com sucesso!')
+else:
+    print('Aguarde 30 min antes de tentar novamente!')
