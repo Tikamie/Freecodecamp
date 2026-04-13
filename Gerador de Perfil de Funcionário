@@ -1,3 +1,4 @@
+#mudar as variaveis no comneço
 first_name = 'John'
 last_name = 'Doe'
 full_name = first_name + ' ' + last_name
@@ -20,5 +21,5 @@ year_code = employee_code[4:8]
 print(year_code)
 initials = employee_code[9:11]
 print(initials)
-last_three = employee_code[-3:]
+last_three = employee_code[-3:] 
 print(last_three) 
